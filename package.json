@@ -1,0 +1,20 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "QRocde avec express et node",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode": "^1.5.3",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/qrcode": "^1.5.5"
+  },
+  "scripts": {
+    "test": "npx tsc && node ./dist/main.js"
+  }
+}
