@@ -1,4 +1,4 @@
-import { log } from 'console';
+// main.js
 import express,{Request,Response} from 'express'
 import  QRCode  from 'qrcode'
 
@@ -22,5 +22,5 @@ app.get('/generateQR/:id',(req : Request,res : Response) =>{
 });
 
 app.listen(PORT,() =>{
-    console.log(`Serve fire on http://localhost:3000/iciPourQrCode`);
+    console.log(`Serve fire on http://localhost:3000/generateQR/exemple`);
 })
